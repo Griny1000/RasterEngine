@@ -13,10 +13,13 @@ include_directories(
 
 # Создание исполняемого файла
 add_executable(${PROJECT_NAME}
+    src/RasterEngine/ColorBuffer.cpp
     src/RasterEngine/Context.cpp
     src/RasterEngine/EventSys.cpp
     src/RasterEngine/Renderer.cpp
     src/RasterEngine/Window.cpp
+    src/RasterEngine/Grid.cpp
+    src/RasterEngine/Rect.cpp
     src/main.cpp
 )
 
